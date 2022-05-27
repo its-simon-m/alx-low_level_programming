@@ -5,6 +5,7 @@
  * _pow - calculates (base ^ power)
  * print_binary - prints a number in binary notation
  * @n: number to print
+ *
  * @base: base of the exponent
  * @power: power of the exponent
  * Return: value of (base ^ power)
