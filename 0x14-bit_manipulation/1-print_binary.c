@@ -3,6 +3,9 @@
 
 /**
  * _pow - calculates (base ^ power)
+ * print_binary - prints a number in binary notation
+ * @n: number to print
+ *
  * @base: base of the exponent
  * @power: power of the exponent
  * Return: value of (base ^ power)
@@ -17,12 +20,6 @@ unsigned long int _pow(unsigned int base, unsigned int power)
 		num *= base;
 	return (num);
 }
-
-/**
- * print_binary - prints a number in binary notation
- * @n: number to print
- * Return: void
- */
 void print_binary(unsigned long int n)
 {
 	unsigned long int divisor, check;
